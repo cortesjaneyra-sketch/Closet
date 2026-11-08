@@ -1,0 +1,1176 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Mi Clóset">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#f6eee6">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" href="data:image/png;base64,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">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}body{margin:0;font-size:14px}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<title>Mi Clóset</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Italiana&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+  /* Layout: app de una columna para celular; arriba la marca, en medio la vista activa
+     (clóset / vestir / outfits), abajo una barra fija con las pestañas y el botón de agregar. */
+  :root {
+    --fondo: #f6eee6;        /* lino */
+    --superficie: #fffaf5;   /* papel de seda */
+    --hundido: #efe3d7;      /* caja de zapatos */
+    --tinta: #3e2a22;        /* cacao */
+    --tenue: #8c7466;
+    --acento: #b9714f;       /* caramelo tostado */
+    --acento-tinta: #fffaf5;
+    --rubor: #e7b7a6;
+    --linea: #e4d4c6;
+    --piel: #ead3bf;         /* maniquí */
+    --piel-sombra: #d8b89e;
+    --peligro: #b5483c;
+    --sombra: 0 10px 30px rgba(94, 58, 40, 0.12);
+    --f-marca: "Italiana", "Didot", "Bodoni 72", Georgia, serif;
+    --f-texto: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --radio: 18px;
+    --barra: 74px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --fondo: #221915; --superficie: #2d221c; --hundido: #3a2c24; --tinta: #f3e6da;
+      --tenue: #b49c8c; --acento: #e0a07c; --acento-tinta: #2a1d17; --rubor: #c98e7c;
+      --linea: #47362c; --piel: #cdb19a; --piel-sombra: #ad8f78; --peligro: #e57f72;
+      --sombra: 0 10px 30px rgba(0, 0, 0, 0.35);
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --fondo: #221915; --superficie: #2d221c; --hundido: #3a2c24; --tinta: #f3e6da;
+    --tenue: #b49c8c; --acento: #e0a07c; --acento-tinta: #2a1d17; --rubor: #c98e7c;
+    --linea: #47362c; --piel: #cdb19a; --piel-sombra: #ad8f78; --peligro: #e57f72;
+    --sombra: 0 10px 30px rgba(0, 0, 0, 0.35);
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--fondo);
+    color: var(--tinta);
+    font-family: var(--f-texto);
+    font-size: 15px;
+    line-height: 1.45;
+    -webkit-tap-highlight-color: transparent;
+  }
+  button, input, select { font: inherit; color: inherit; }
+  button { cursor: pointer; }
+  :focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+
+  .marco {
+    max-width: 980px;
+    margin: 0 auto;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 14px calc(var(--barra) + 28px + env(safe-area-inset-bottom, 0px));
+  }
+
+  /* ---------- Encabezado ---------- */
+  .cabeza { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 6px 14px; }
+  .logo { font-family: var(--f-marca); font-size: 34px; line-height: 1; letter-spacing: 0.02em; margin: 0; }
+  .logo small { display: block; font-family: var(--f-texto); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--tenue); margin-top: 6px; }
+  .btn-texto { background: none; border: 1px solid var(--linea); border-radius: 999px; padding: 7px 14px; font-size: 13px; color: var(--tenue); }
+  .btn-texto:hover { color: var(--tinta); border-color: var(--tenue); }
+
+  h2 { font-family: var(--f-marca); font-weight: 400; font-size: 28px; margin: 0; text-wrap: balance; }
+  .sub { color: var(--tenue); font-size: 13px; margin: 2px 0 0; }
+
+  /* ---------- Botones ---------- */
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    border: none; border-radius: 999px; padding: 11px 18px; font-weight: 600; font-size: 14px;
+    background: var(--hundido); color: var(--tinta);
+  }
+  .btn.prim { background: var(--acento); color: var(--acento-tinta); }
+  .btn.peligro { background: transparent; color: var(--peligro); border: 1px solid currentColor; }
+  .btn:disabled { opacity: 0.45; cursor: default; }
+  .btn svg { width: 18px; height: 18px; }
+
+  /* ---------- Chips de categoría ---------- */
+  .chips { display: flex; gap: 8px; overflow-x: auto; padding: 4px 2px 10px; scrollbar-width: none; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip {
+    flex: none; border: 1px solid var(--linea); background: var(--superficie); border-radius: 999px;
+    padding: 7px 14px; font-size: 13px; white-space: nowrap; color: var(--tenue);
+  }
+  .chip[aria-pressed="true"] { background: var(--tinta); color: var(--fondo); border-color: var(--tinta); }
+  .chip .n { font-variant-numeric: tabular-nums; opacity: 0.7; margin-left: 4px; }
+
+  /* ---------- Clóset ---------- */
+  .barra-vista { display: flex; align-items: end; justify-content: space-between; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
+  .aviso {
+    display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap;
+    background: var(--hundido); border-radius: 14px; padding: 10px 14px; font-size: 13px; margin-bottom: 12px;
+  }
+  .rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 12px; }
+  .prenda {
+    border: none; padding: 0; background: none; text-align: left; display: grid; gap: 6px; min-width: 0;
+  }
+  .prenda .foto {
+    aspect-ratio: 1; border-radius: 16px; background: var(--superficie); display: grid; place-items: center;
+    padding: 10px; border: 1px solid var(--linea); position: relative;
+  }
+  .prenda .foto { overflow: hidden; }
+  .prenda img { position: absolute; inset: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; filter: drop-shadow(0 4px 6px rgba(80, 50, 30, 0.15)); }
+  .tile { overflow: hidden; }
+  .tile img { width: 100%; height: 100%; }
+  .prenda .nom { font-size: 13px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .prenda .det { font-size: 12px; color: var(--tenue); margin-top: -6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .etq { position: absolute; top: 6px; left: 6px; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; background: var(--rubor); color: #3e2a22; border-radius: 999px; padding: 2px 7px; }
+  .vacio { text-align: center; padding: 40px 12px; color: var(--tenue); display: grid; gap: 14px; justify-items: center; }
+  .vacio h3 { font-family: var(--f-marca); font-weight: 400; font-size: 26px; color: var(--tinta); margin: 0; }
+  .vacio p { margin: 0; max-width: 34ch; }
+
+  /* ---------- Vestir ---------- */
+  .vestir { display: grid; gap: 16px; }
+  @media (min-width: 780px) { .vestir { grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); align-items: start; } }
+  .pasarela {
+    background: radial-gradient(120% 70% at 50% 35%, var(--superficie), var(--hundido));
+    border-radius: 26px; padding: 14px 10px 6px; display: grid; justify-items: center; position: relative;
+  }
+  .escena {
+    position: relative; height: min(60vh, 600px); aspect-ratio: 300 / 640; max-width: 100%;
+    touch-action: none; user-select: none; -webkit-user-select: none;
+  }
+  .escena > svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .pieza { position: absolute; display: block; pointer-events: auto; -webkit-user-drag: none; filter: drop-shadow(0 3px 4px rgba(60, 35, 20, 0.18)); }
+  .escena.inter .pieza { cursor: grab; }
+  .pieza.sel { outline: 1.5px dashed var(--acento); outline-offset: 3px; border-radius: 4px; }
+  .fecha-dia { position: absolute; top: 14px; left: 16px; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--tenue); }
+  .acciones-escena { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; padding: 10px 0 6px; }
+
+  .ajuste {
+    display: grid; grid-template-columns: auto minmax(0, 1fr) auto auto; gap: 10px; align-items: center;
+    background: var(--superficie); border: 1px solid var(--linea); border-radius: 14px; padding: 8px 12px; font-size: 13px;
+  }
+  .ajuste input[type="range"] { width: 100%; accent-color: var(--acento); }
+  .mini-btn { border: none; background: var(--hundido); border-radius: 999px; padding: 6px 10px; font-size: 12px; }
+
+  .panel { background: var(--superficie); border: 1px solid var(--linea); border-radius: var(--radio); padding: 14px; display: grid; gap: 10px; min-width: 0; }
+  .panel-cab { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .panel-cab b { font-size: 14px; }
+  .flechas { display: flex; gap: 6px; }
+  .flecha { width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--linea); background: var(--fondo); display: grid; place-items: center; }
+  .flecha svg { width: 16px; height: 16px; }
+  .tira { display: flex; gap: 10px; overflow-x: auto; padding: 2px 2px 6px; scroll-snap-type: x proximity; }
+  .tile {
+    flex: none; width: 78px; height: 92px; border-radius: 14px; border: 1.5px solid var(--linea); background: var(--fondo);
+    display: grid; place-items: center; padding: 8px; scroll-snap-align: start;
+  }
+  .tile img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .tile[aria-pressed="true"] { border-color: var(--acento); box-shadow: 0 0 0 3px color-mix(in srgb, var(--acento) 25%, transparent); }
+  .tile.nada { font-size: 12px; color: var(--tenue); }
+  .puesto-lista { display: flex; flex-wrap: wrap; gap: 6px; font-size: 12px; color: var(--tenue); }
+  .puesto-lista span { background: var(--hundido); border-radius: 999px; padding: 3px 10px; }
+
+  /* ---------- Outfits ---------- */
+  .looks { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; }
+  .look { background: var(--superficie); border: 1px solid var(--linea); border-radius: var(--radio); padding: 10px; display: grid; gap: 8px; min-width: 0; }
+  .look .escena { height: auto; width: 100%; touch-action: auto; background: radial-gradient(100% 60% at 50% 35%, var(--fondo), var(--hundido)); border-radius: 12px; }
+  .look .nom { font-weight: 600; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .look .det { font-size: 12px; color: var(--tenue); margin-top: -6px; }
+  .look .bots { display: flex; gap: 6px; flex-wrap: wrap; }
+
+  /* ---------- Barra inferior ---------- */
+  .barra {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
+    background: color-mix(in srgb, var(--superficie) 92%, transparent);
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid var(--linea);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    padding-left: max(8px, env(safe-area-inset-left, 0px));
+    padding-right: max(8px, env(safe-area-inset-right, 0px));
+  }
+  .barra-in { max-width: 520px; margin: 0 auto; height: var(--barra); display: grid; grid-template-columns: 1fr 1fr auto 1fr; align-items: center; }
+  .pest { border: none; background: none; display: grid; justify-items: center; gap: 3px; font-size: 11px; color: var(--tenue); padding: 6px 0; }
+  .pest svg { width: 24px; height: 24px; }
+  .pest[aria-current="page"] { color: var(--tinta); font-weight: 600; }
+  .agregar {
+    width: 58px; height: 58px; border-radius: 50%; border: none; background: var(--acento); color: var(--acento-tinta);
+    display: grid; place-items: center; box-shadow: var(--sombra); margin: 0 10px; transform: translateY(-12px);
+  }
+  .agregar svg { width: 26px; height: 26px; }
+
+  /* ---------- Hojas (ventanas desde abajo) ---------- */
+  .hoja { position: fixed; inset: 0; z-index: 40; display: grid; align-items: end; justify-items: center; background: rgba(40, 24, 16, 0.45); }
+  .hoja-in {
+    background: var(--fondo); width: 100%; max-width: 560px; max-height: 94%; overflow-y: auto;
+    border-radius: 24px 24px 0 0; box-shadow: var(--sombra);
+    padding-left: max(18px, env(safe-area-inset-left, 0px));
+    padding-right: max(18px, env(safe-area-inset-right, 0px));
+    padding-block: 18px calc(22px + env(safe-area-inset-bottom, 0px));
+    display: grid; gap: 14px; animation: subir 0.25s ease-out;
+  }
+  @keyframes subir { from { transform: translateY(30px); opacity: 0.4; } to { transform: none; opacity: 1; } }
+  .hoja-cab { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+  .cerrar { width: 36px; height: 36px; border-radius: 50%; border: none; background: var(--hundido); display: grid; place-items: center; }
+  .cerrar svg { width: 18px; height: 18px; }
+
+  .campo { display: grid; gap: 5px; font-size: 13px; color: var(--tenue); }
+  .campo input[type="text"] { border: 1px solid var(--linea); background: var(--superficie); border-radius: 12px; padding: 11px 12px; color: var(--tinta); font-size: 15px; }
+  .fila { display: flex; gap: 10px; flex-wrap: wrap; }
+  .fila > * { flex: 1 1 140px; }
+
+  .soltar {
+    border: 2px dashed var(--rubor); border-radius: 20px; padding: 30px 16px; text-align: center; display: grid; gap: 8px;
+    justify-items: center; background: var(--superficie); cursor: pointer;
+  }
+  .soltar svg { width: 42px; height: 42px; color: var(--acento); }
+  .soltar b { font-size: 16px; }
+  .consejos { font-size: 13px; color: var(--tenue); margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+
+  .lienzo-caja {
+    border-radius: 16px; overflow: hidden; display: grid; place-items: center; padding: 10px;
+    background-color: var(--superficie);
+    background-image: linear-gradient(45deg, var(--hundido) 25%, transparent 25%, transparent 75%, var(--hundido) 75%),
+                      linear-gradient(45deg, var(--hundido) 25%, transparent 25%, transparent 75%, var(--hundido) 75%);
+    background-size: 20px 20px; background-position: 0 0, 10px 10px;
+  }
+  #ed-lienzo { max-width: 100%; max-height: 46vh; display: block; }
+  #ed-lienzo.pincel { touch-action: none; cursor: crosshair; }
+  .herr { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .herr .chip { padding: 7px 12px; }
+  .deslizador { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 10px; align-items: center; font-size: 13px; color: var(--tenue); }
+  .deslizador input { accent-color: var(--acento); width: 100%; }
+  .grande-foto { background: var(--superficie); border-radius: 20px; display: grid; place-items: center; padding: 16px; height: 260px; border: 1px solid var(--linea); }
+  .grande-foto img { max-height: 100%; max-width: 100%; object-fit: contain; }
+
+  .toast {
+    position: fixed; left: 50%; bottom: calc(var(--barra) + 24px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%);
+    background: var(--tinta); color: var(--fondo); padding: 10px 18px; border-radius: 999px; font-size: 14px; z-index: 60;
+    box-shadow: var(--sombra); max-width: calc(100% - 32px); text-align: center;
+  }
+  .nota { font-size: 13px; color: var(--tenue); margin: 0; }
+  @media (prefers-reduced-motion: reduce) { .hoja-in { animation: none; } .pieza { transition: none !important; } }
+</style>
+
+<!-- Maniquí (se reutiliza en todas las escenas) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="g-piel" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" style="stop-color:var(--piel-sombra)"></stop>
+      <stop offset="0.45" style="stop-color:var(--piel)"></stop>
+      <stop offset="1" style="stop-color:var(--piel-sombra)"></stop>
+    </linearGradient>
+    <symbol id="maniqui" viewBox="0 0 300 640">
+      <ellipse cx="150" cy="616" rx="74" ry="8" style="fill:var(--tinta);opacity:.08"></ellipse>
+      <path id="m-brazo-d" style="fill:url(#g-piel)"></path>
+      <path id="m-brazo-i" style="fill:url(#g-piel)"></path>
+      <path id="m-cuerpo" style="fill:url(#g-piel)"></path>
+      <ellipse cx="150" cy="52" rx="24" ry="29" style="fill:url(#g-piel)"></ellipse>
+      <path d="M128 214 Q150 222 172 214" style="fill:none;stroke:var(--piel-sombra);stroke-width:1.2;opacity:.7"></path>
+      <path d="M140 92 Q150 98 160 92" style="fill:none;stroke:var(--piel-sombra);stroke-width:1.2;opacity:.7"></path>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="marco">
+  <header class="cabeza">
+    <h1 class="logo">Mi Clóset<small id="conteo">Tu ropa, en tu celular</small></h1>
+    <button class="btn-texto" type="button" id="btn-respaldo">Respaldo</button>
+  </header>
+
+  <div class="aviso" id="aviso-guardado" hidden>
+    <span>Este navegador no deja guardar datos. Lo que agregues se borrará al cerrar la página.</span>
+  </div>
+
+  <!-- CLÓSET -->
+  <section id="v-closet" aria-labelledby="t-closet">
+    <div class="barra-vista">
+      <div><h2 id="t-closet">Mi clóset</h2><p class="sub" id="closet-sub"></p></div>
+    </div>
+    <div class="aviso" id="aviso-ejemplos" hidden>
+      <span>Estas prendas son de ejemplo para que veas cómo funciona.</span>
+      <button class="mini-btn" type="button" id="btn-borrar-ejemplos">Quitar ejemplos</button>
+    </div>
+    <div class="chips" id="filtros" role="toolbar" aria-label="Filtrar por tipo"></div>
+    <div class="rejilla" id="rejilla"></div>
+    <div class="vacio" id="closet-vacio" hidden>
+      <h3>Tu clóset está vacío</h3>
+      <p>Toma foto a cada prenda sobre un fondo liso. La app le quita el fondo y la guarda aquí.</p>
+      <button class="btn prim" type="button" data-agregar>Agregar mi primera prenda</button>
+    </div>
+  </section>
+
+  <!-- VESTIR -->
+  <section id="v-vestir" aria-labelledby="t-vestir" hidden>
+    <div class="barra-vista">
+      <div><h2 id="t-vestir">¿Qué me pongo hoy?</h2><p class="sub">Elige una prenda de cada tipo o deja que la app escoja.</p></div>
+    </div>
+    <div class="vestir">
+      <div class="pasarela">
+        <span class="fecha-dia" id="fecha-dia"></span>
+        <div class="escena inter" id="escena"></div>
+        <div class="acciones-escena">
+          <button class="btn prim" type="button" id="btn-sorpresa">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>
+            Sorpréndeme
+          </button>
+          <button class="btn" type="button" id="btn-guardar-look">Guardar outfit</button>
+        </div>
+      </div>
+      <div style="display:grid;gap:12px;min-width:0">
+        <div class="ajuste" id="ajuste" hidden>
+          <span id="ajuste-nom">Tamaño</span>
+          <input type="range" id="ajuste-tam" min="40" max="220" value="100" aria-label="Tamaño de la prenda">
+          <button class="mini-btn" type="button" id="ajuste-centrar">Centrar</button>
+          <button class="mini-btn" type="button" id="ajuste-quitar">Quitar</button>
+        </div>
+        <p class="nota" id="ayuda-mover">Toca una prenda en el maniquí para moverla con el dedo o cambiar su tamaño. La app recuerda cómo la acomodaste.</p>
+        <div class="chips" id="ranuras" role="toolbar" aria-label="Tipo de prenda"></div>
+        <div class="panel">
+          <div class="panel-cab">
+            <b id="ranura-titulo">Arriba</b>
+            <div class="flechas">
+              <button class="flecha" type="button" id="ant" aria-label="Prenda anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+              <button class="flecha" type="button" id="sig" aria-label="Siguiente prenda"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 5l7 7-7 7"/></svg></button>
+            </div>
+          </div>
+          <div class="tira" id="tira"></div>
+        </div>
+        <div class="puesto-lista" id="puesto-lista"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUTFITS -->
+  <section id="v-outfits" aria-labelledby="t-outfits" hidden>
+    <div class="barra-vista">
+      <div><h2 id="t-outfits">Mis outfits</h2><p class="sub" id="outfits-sub"></p></div>
+    </div>
+    <div class="looks" id="looks"></div>
+    <div class="vacio" id="looks-vacio" hidden>
+      <h3>Aún no guardas outfits</h3>
+      <p>Arma uno en "Vestir" y toca "Guardar outfit". Aquí verás todos y cuántas veces los usaste.</p>
+      <button class="btn prim" type="button" data-ir="vestir">Ir a vestir</button>
+    </div>
+  </section>
+</div>
+
+<!-- Barra inferior -->
+<nav class="barra" aria-label="Secciones">
+  <div class="barra-in">
+    <button class="pest" type="button" data-ir="closet">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.5a2 2 0 1 1 2-2M12 6.5v1.2L3 14.5a1.2 1.2 0 0 0 .7 2.2h16.6a1.2 1.2 0 0 0 .7-2.2L12 7.7"/></svg>
+      Clóset
+    </button>
+    <button class="pest" type="button" data-ir="vestir">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6l-.5 4 3.5 13H6L9.5 7z"/><path d="M9.5 7h5"/></svg>
+      Vestir
+    </button>
+    <button class="agregar" type="button" data-agregar aria-label="Agregar prenda">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+    </button>
+    <button class="pest" type="button" data-ir="outfits">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>
+      Outfits
+    </button>
+  </div>
+</nav>
+
+<!-- Hoja: agregar / editar recorte -->
+<div class="hoja" id="hoja-editor" hidden>
+  <div class="hoja-in" role="dialog" aria-modal="true" aria-labelledby="ed-titulo">
+    <div class="hoja-cab"><h2 id="ed-titulo">Nueva prenda</h2><button class="cerrar" type="button" data-cerrar aria-label="Cerrar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+
+    <div id="ed-elegir" style="display:grid;gap:12px">
+      <label class="soltar" for="ed-archivo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>
+        <b>Tomar o elegir foto</b>
+        <span class="nota">Se abre tu cámara o tu galería</span>
+      </label>
+      <input type="file" id="ed-archivo" accept="image/*" hidden>
+      <ul class="consejos">
+        <li>Extiende la prenda sobre un fondo liso: cama, piso o pared.</li>
+        <li>Que el fondo sea de un color distinto a la prenda.</li>
+        <li>Toma la foto desde arriba, de frente y con buena luz.</li>
+      </ul>
+    </div>
+
+    <div id="ed-trabajo" hidden style="display:grid;gap:12px">
+      <div class="lienzo-caja"><canvas id="ed-lienzo" width="10" height="10"></canvas></div>
+      <div class="herr">
+        <button class="chip" type="button" id="ed-auto" aria-pressed="true">Quitar fondo</button>
+        <button class="chip" type="button" id="ed-borrar" aria-pressed="false">Borrar con el dedo</button>
+        <button class="chip" type="button" id="ed-recuperar" aria-pressed="false">Recuperar</button>
+        <button class="chip" type="button" id="ed-deshacer">Deshacer</button>
+      </div>
+      <div class="deslizador" id="ed-tol-caja"><label for="ed-tol">Sensibilidad</label><input type="range" id="ed-tol" min="6" max="60" value="22"></div>
+      <div class="deslizador" id="ed-pincel-caja" hidden><label for="ed-pincel">Tamaño del dedo</label><input type="range" id="ed-pincel" min="6" max="60" value="22"></div>
+      <p class="nota" id="ed-nota">Si se borró parte de la prenda, baja la sensibilidad o usa "Recuperar". Si quedó fondo, súbela o usa "Borrar con el dedo".</p>
+      <div class="fila">
+        <label class="campo">Nombre<input type="text" id="ed-nombre" placeholder="Blusa blanca de botones" autocomplete="off"></label>
+        <label class="campo">Marca (opcional)<input type="text" id="ed-marca" placeholder="Zara, Shein…" autocomplete="off"></label>
+      </div>
+      <div class="campo">Tipo de prenda<div class="chips" id="ed-cats" role="radiogroup" aria-label="Tipo de prenda"></div></div>
+      <div class="fila">
+        <button class="btn" type="button" id="ed-otra">Cambiar foto</button>
+        <button class="btn prim" type="button" id="ed-guardar">Guardar prenda</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Hoja: detalle de prenda -->
+<div class="hoja" id="hoja-prenda" hidden>
+  <div class="hoja-in" role="dialog" aria-modal="true" aria-labelledby="pr-titulo">
+    <div class="hoja-cab"><h2 id="pr-titulo">Prenda</h2><button class="cerrar" type="button" data-cerrar aria-label="Cerrar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+    <div class="grande-foto"><img id="pr-img" alt=""></div>
+    <div class="fila">
+      <label class="campo">Nombre<input type="text" id="pr-nombre" autocomplete="off"></label>
+      <label class="campo">Marca<input type="text" id="pr-marca" autocomplete="off"></label>
+    </div>
+    <div class="campo">Tipo de prenda<div class="chips" id="pr-cats" role="radiogroup" aria-label="Tipo de prenda"></div></div>
+    <p class="nota" id="pr-usos"></p>
+    <div class="fila">
+      <button class="btn prim" type="button" id="pr-probar">Probar en el maniquí</button>
+      <button class="btn" type="button" id="pr-guardar">Guardar cambios</button>
+    </div>
+    <div class="fila">
+      <button class="btn" type="button" id="pr-recorte">Editar recorte</button>
+      <button class="btn peligro" type="button" id="pr-eliminar">Eliminar prenda</button>
+    </div>
+  </div>
+</div>
+
+<!-- Hoja: guardar outfit -->
+<div class="hoja" id="hoja-look" hidden>
+  <div class="hoja-in" role="dialog" aria-modal="true" aria-labelledby="lk-titulo">
+    <div class="hoja-cab"><h2 id="lk-titulo">Guardar outfit</h2><button class="cerrar" type="button" data-cerrar aria-label="Cerrar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+    <label class="campo">Nombre del outfit<input type="text" id="lk-nombre" autocomplete="off"></label>
+    <label class="campo" style="display:flex;gap:10px;align-items:center;color:var(--tinta)"><input type="checkbox" id="lk-hoy" checked style="width:20px;height:20px;accent-color:var(--acento)"> Lo voy a usar hoy</label>
+    <button class="btn prim" type="button" id="lk-guardar">Guardar</button>
+  </div>
+</div>
+
+<!-- Hoja: respaldo -->
+<div class="hoja" id="hoja-respaldo" hidden>
+  <div class="hoja-in" role="dialog" aria-modal="true" aria-labelledby="rs-titulo">
+    <div class="hoja-cab"><h2 id="rs-titulo">Respaldo</h2><button class="cerrar" type="button" data-cerrar aria-label="Cerrar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+    <p class="nota">Tus prendas y outfits se guardan solo en este celular, en este navegador. Nadie más los ve. Haz un respaldo de vez en cuando para no perderlos si borras el historial o cambias de celular.</p>
+    <button class="btn prim" type="button" id="rs-exportar">Descargar respaldo</button>
+    <label class="btn" for="rs-archivo" style="cursor:pointer">Cargar un respaldo</label>
+    <input type="file" id="rs-archivo" accept="application/json,.json" hidden>
+    <p class="nota" id="rs-estado"></p>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script>
+(() => {
+  "use strict";
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+
+  /* ================= Datos básicos ================= */
+  const CATS = [
+    { k: "arriba",    n: "Blusas y tops",        c: "Arriba" },
+    { k: "abajo",     n: "Pantalones y faldas",  c: "Abajo" },
+    { k: "vestido",   n: "Vestidos",             c: "Vestido" },
+    { k: "abrigo",    n: "Chamarras y suéteres", c: "Encima" },
+    { k: "zapatos",   n: "Zapatos",              c: "Zapatos" },
+    { k: "bolsa",     n: "Bolsas",               c: "Bolsa" },
+    { k: "accesorio", n: "Accesorios",           c: "Accesorio" }
+  ];
+  const cat = k => CATS.find(c => c.k === k) || CATS[0];
+  // Dónde va cada tipo sobre el maniquí (unidades del dibujo: 300 × 640)
+  const ANCLA = {
+    zapatos:   { cx: 150, yb: 614, w: 96 },
+    abajo:     { cx: 150, y: 210, w: 120 },
+    vestido:   { cx: 150, y: 98,  w: 152 },
+    arriba:    { cx: 150, y: 98,  w: 152 },
+    abrigo:    { cx: 150, y: 94,  w: 176 },
+    accesorio: { cx: 150, y: 84,  w: 62 },
+    bolsa:     { cx: 236, y: 284, w: 72 }
+  };
+  const ORDEN = ["zapatos", "abajo", "vestido", "arriba", "abrigo", "accesorio", "bolsa"];
+  const RANURAS = ["arriba", "abajo", "vestido", "abrigo", "zapatos", "bolsa", "accesorio"];
+  const nuevoId = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+  const MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
+  const fechaCorta = t => { const d = new Date(t); return d.getDate() + " " + MESES[d.getMonth()]; };
+  const hoyClave = () => { const d = new Date(); return d.getFullYear() + "-" + (d.getMonth() + 1) + "-" + d.getDate(); };
+
+  /* ================= Guardado (IndexedDB, solo en este celular) ================= */
+  let idb = null;
+  const memoria = { prendas: new Map(), outfits: new Map(), ajustes: new Map() };
+  function abrirDB() {
+    return new Promise(res => {
+      let listo = false; const fin = v => { if (!listo) { listo = true; res(v); } };
+      try {
+        const r = indexedDB.open("miCloset", 1);
+        r.onupgradeneeded = () => {
+          const d = r.result;
+          if (!d.objectStoreNames.contains("prendas")) d.createObjectStore("prendas", { keyPath: "id" });
+          if (!d.objectStoreNames.contains("outfits")) d.createObjectStore("outfits", { keyPath: "id" });
+          if (!d.objectStoreNames.contains("ajustes")) d.createObjectStore("ajustes", { keyPath: "k" });
+        };
+        r.onsuccess = () => fin(r.result);
+        r.onerror = () => fin(null);
+        r.onblocked = () => fin(null);
+        setTimeout(() => fin(null), 5000);
+      } catch (e) { fin(null); }
+    });
+  }
+  function op(store, mode, fn) {
+    return new Promise((res, rej) => {
+      try {
+        const t = idb.transaction(store, mode); const req = fn(t.objectStore(store));
+        t.oncomplete = () => res(req ? req.result : undefined);
+        t.onerror = () => rej(t.error); t.onabort = () => rej(t.error);
+      } catch (e) { rej(e); }
+    });
+  }
+  const leerTodo = async s => idb ? op(s, "readonly", st => st.getAll()) : [...memoria[s].values()];
+  const poner = async (s, o) => { if (!idb) { memoria[s].set(o.id ?? o.k, o); return; } await op(s, "readwrite", st => st.put(o)); };
+  const quitar = async (s, id) => { if (!idb) { memoria[s].delete(id); return; } await op(s, "readwrite", st => st.delete(id)); };
+  const leerAjuste = async k => { try { const r = idb ? await op("ajustes", "readonly", st => st.get(k)) : memoria.ajustes.get(k); return r ? r.v : undefined; } catch (e) { return undefined; } };
+  const ponerAjuste = (k, v) => poner("ajustes", { k, v }).catch(() => {});
+  const local = {
+    get(k) { try { return JSON.parse(localStorage.getItem("miCloset." + k)); } catch (e) { return null; } },
+    set(k, v) { try { localStorage.setItem("miCloset." + k, JSON.stringify(v)); } catch (e) {} }
+  };
+
+  let prendas = [];
+  let outfits = [];
+  const urls = new Map();
+  function urlDe(p) {
+    if (!p || !p.img) return "";
+    const u = urls.get(p.id);
+    if (u && u.blob === p.img) return u.url;
+    if (u) URL.revokeObjectURL(u.url);
+    const url = URL.createObjectURL(p.img); urls.set(p.id, { blob: p.img, url }); return url;
+  }
+  const prendaDe = id => prendas.find(p => p.id === id);
+
+  /* ================= Avisos ================= */
+  let tToast;
+  function toast(msg) { const t = $("#toast"); t.textContent = msg; t.hidden = false; clearTimeout(tToast); tToast = setTimeout(() => (t.hidden = true), 2400); }
+  // Botón de eliminar con confirmación en dos toques (sin ventanas del navegador)
+  function confirmar(btn, texto, accion) {
+    if (btn.dataset.armado === "1") { btn.dataset.armado = ""; btn.textContent = btn.dataset.orig; accion(); return; }
+    btn.dataset.orig = btn.textContent; btn.dataset.armado = "1"; btn.textContent = texto;
+    setTimeout(() => { if (btn.dataset.armado === "1") { btn.dataset.armado = ""; btn.textContent = btn.dataset.orig; } }, 3500);
+  }
+
+  /* ================= Maniquí ================= */
+  function suave(pts) {
+    const n = pts.length; let d = "M" + pts[0][0] + "," + pts[0][1];
+    for (let i = 0; i < n; i++) {
+      const p0 = pts[(i - 1 + n) % n], p1 = pts[i], p2 = pts[(i + 1) % n], p3 = pts[(i + 2) % n];
+      const c1 = [p1[0] + (p2[0] - p0[0]) / 6, p1[1] + (p2[1] - p0[1]) / 6];
+      const c2 = [p2[0] - (p3[0] - p1[0]) / 6, p2[1] - (p3[1] - p1[1]) / 6];
+      d += "C" + c1[0].toFixed(1) + "," + c1[1].toFixed(1) + " " + c2[0].toFixed(1) + "," + c2[1].toFixed(1) + " " + p2[0] + "," + p2[1];
+    }
+    return d + "Z";
+  }
+  (function dibujarManiqui() {
+    const der = [[160,84],[161,98],[176,104],[197,110],[208,124],[204,150],[201,180],[188,222],[194,250],[203,278],[200,320],[190,370],[180,425],[182,470],[176,520],[166,574],[171,596],[161,604],[154,598],[155,560],[157,500],[158,440],[158,380],[155,322]];
+    const cuerpo = der.concat([[150,308]], der.slice().reverse().map(([x, y]) => [300 - x, y]));
+    $("#m-cuerpo").setAttribute("d", suave(cuerpo));
+    const brazo = [[204,116],[215,138],[221,190],[225,245],[229,298],[231,326],[225,340],[217,334],[215,300],[211,250],[205,200],[199,150]];
+    $("#m-brazo-d").setAttribute("d", suave(brazo));
+    $("#m-brazo-i").setAttribute("d", suave(brazo.map(([x, y]) => [300 - x, y])));
+  })();
+  const SVG_MANIQUI = '<svg viewBox="0 0 300 640" aria-hidden="true"><use href="#maniqui"></use></svg>';
+
+  function geometria(p, ranura, aj) {
+    const a = ANCLA[ranura]; const s = (aj && aj.s) || 1; const asp = p.h / p.w; let W, H;
+    if (ranura === "abajo" && asp > 1.3) { H = 368 * s; W = H / asp; if (W > 160 * s) { W = 160 * s; H = W * asp; } }
+    else { W = a.w * s; H = W * asp; }
+    if ((ranura === "vestido") && H > 470 * s) { H = 470 * s; W = H / asp; }
+    if ((ranura === "arriba" || ranura === "abrigo") && H > 330 * s) { H = 330 * s; W = H / asp; }
+    if (ranura === "zapatos" && H > 70 * s) { H = 70 * s; W = H / asp; }
+    if ((ranura === "bolsa" || ranura === "accesorio") && H > 110 * s) { H = 110 * s; W = H / asp; }
+    const left = a.cx - W / 2 + ((aj && aj.dx) || 0);
+    const top = (a.yb !== undefined ? a.yb - H : a.y) + ((aj && aj.dy) || 0);
+    return { left, top, W, H };
+  }
+  function colocar(el, g) {
+    el.style.left = (g.left / 3) + "%";
+    el.style.top = (g.top / 6.4) + "%";
+    el.style.width = (g.W / 3) + "%";
+  }
+  // Dibuja un outfit en un contenedor .escena
+  function pintarEscena(cont, puesto, ajustes, sel) {
+    cont.innerHTML = SVG_MANIQUI;
+    ORDEN.forEach((r, i) => {
+      const p = prendaDe(puesto[r]); if (!p) return;
+      const img = document.createElement("img");
+      img.className = "pieza" + (sel === r ? " sel" : ""); img.alt = p.nombre; img.draggable = false;
+      img.dataset.ranura = r; img.src = urlDe(p); img.style.zIndex = i + 1;
+      colocar(img, geometria(p, r, (ajustes && ajustes[p.id]) || p.ajuste));
+      cont.appendChild(img);
+    });
+  }
+
+  /* ================= Estado de "Vestir" ================= */
+  let puesto = { arriba: null, abajo: null, vestido: null, abrigo: null, zapatos: null, bolsa: null, accesorio: null };
+  let ranuraActiva = "arriba";
+  let seleccion = null;
+
+  function ponerPrenda(ranura, id) {
+    puesto[ranura] = id;
+    if (id && ranura === "vestido") { puesto.arriba = null; puesto.abajo = null; }
+    if (id && (ranura === "arriba" || ranura === "abajo")) puesto.vestido = null;
+    if (!id && seleccion === ranura) seleccion = null;
+    local.set("puesto", puesto);
+  }
+  function limpiarPuesto() { for (const r of RANURAS) if (puesto[r] && !prendaDe(puesto[r])) puesto[r] = null; }
+
+  function renderVestir() {
+    limpiarPuesto();
+    const d = new Date();
+    $("#fecha-dia").textContent = ["domingo","lunes","martes","miércoles","jueves","viernes","sábado"][d.getDay()] + " " + fechaCorta(d);
+    pintarEscena($("#escena"), puesto, null, seleccion);
+    // Ranuras
+    const rr = $("#ranuras"); rr.innerHTML = "";
+    RANURAS.forEach(r => {
+      const b = document.createElement("button"); b.type = "button"; b.className = "chip";
+      b.setAttribute("aria-pressed", String(r === ranuraActiva)); b.textContent = cat(r).c;
+      const n = prendas.filter(p => p.cat === r).length; const s = document.createElement("span"); s.className = "n"; s.textContent = n; b.appendChild(s);
+      b.onclick = () => { ranuraActiva = r; renderVestir(); };
+      rr.appendChild(b);
+    });
+    $("#ranura-titulo").textContent = cat(ranuraActiva).n;
+    // Tira de prendas
+    const tira = $("#tira"); tira.innerHTML = "";
+    const lista = prendas.filter(p => p.cat === ranuraActiva);
+    const nada = document.createElement("button"); nada.type = "button"; nada.className = "tile nada"; nada.textContent = "Nada";
+    nada.setAttribute("aria-pressed", String(!puesto[ranuraActiva]));
+    nada.onclick = () => { ponerPrenda(ranuraActiva, null); renderVestir(); };
+    tira.appendChild(nada);
+    lista.forEach(p => {
+      const b = document.createElement("button"); b.type = "button"; b.className = "tile";
+      b.setAttribute("aria-pressed", String(puesto[ranuraActiva] === p.id)); b.title = p.nombre;
+      const im = document.createElement("img"); im.src = urlDe(p); im.alt = p.nombre; b.appendChild(im);
+      b.onclick = () => { ponerPrenda(ranuraActiva, p.id); seleccion = ranuraActiva; renderVestir(); };
+      tira.appendChild(b);
+    });
+    if (!lista.length) {
+      const v = document.createElement("button"); v.type = "button"; v.className = "tile nada"; v.style.width = "150px";
+      v.textContent = "+ Agregar " + cat(ranuraActiva).n.toLowerCase(); v.onclick = () => abrirEditor(null, ranuraActiva);
+      tira.appendChild(v);
+    }
+    // Lista de lo que traes puesto
+    const pl = $("#puesto-lista"); pl.innerHTML = "";
+    ORDEN.slice().reverse().forEach(r => { const p = prendaDe(puesto[r]); if (p) { const s = document.createElement("span"); s.textContent = p.nombre; pl.appendChild(s); } });
+    // Ajuste
+    const pSel = seleccion && prendaDe(puesto[seleccion]);
+    $("#ajuste").hidden = !pSel;
+    if (pSel) { $("#ajuste-nom").textContent = pSel.nombre; $("#ajuste-tam").value = Math.round(((pSel.ajuste && pSel.ajuste.s) || 1) * 100); }
+  }
+  function moverRanura(paso) {
+    const lista = prendas.filter(p => p.cat === ranuraActiva); if (!lista.length) return;
+    const ids = [null, ...lista.map(p => p.id)];
+    let i = ids.indexOf(puesto[ranuraActiva]); i = (i + paso + ids.length) % ids.length;
+    ponerPrenda(ranuraActiva, ids[i]); seleccion = ids[i] ? ranuraActiva : null; renderVestir();
+  }
+  $("#ant").onclick = () => moverRanura(-1);
+  $("#sig").onclick = () => moverRanura(1);
+
+  const azar = arr => arr[Math.floor(Math.random() * arr.length)];
+  $("#btn-sorpresa").onclick = () => {
+    const de = k => prendas.filter(p => p.cat === k);
+    const nuevo = { arriba: null, abajo: null, vestido: null, abrigo: null, zapatos: null, bolsa: null, accesorio: null };
+    const vest = de("vestido"), arr = de("arriba"), ab = de("abajo");
+    if (vest.length && (Math.random() < 0.3 || !(arr.length && ab.length))) nuevo.vestido = azar(vest).id;
+    else { if (arr.length) nuevo.arriba = azar(arr).id; if (ab.length) nuevo.abajo = azar(ab).id; }
+    if (de("zapatos").length) nuevo.zapatos = azar(de("zapatos")).id;
+    if (de("abrigo").length && Math.random() < 0.45) nuevo.abrigo = azar(de("abrigo")).id;
+    if (de("bolsa").length && Math.random() < 0.55) nuevo.bolsa = azar(de("bolsa")).id;
+    if (de("accesorio").length && Math.random() < 0.35) nuevo.accesorio = azar(de("accesorio")).id;
+    if (!Object.values(nuevo).some(Boolean)) { toast("Primero agrega algunas prendas"); return; }
+    puesto = nuevo; seleccion = null; local.set("puesto", puesto); renderVestir();
+  };
+
+  // Mover y escalar prendas con el dedo
+  (function interaccion() {
+    const esc = $("#escena"); const ptrs = new Map(); let ini = null;
+    const pSel = () => seleccion && prendaDe(puesto[seleccion]);
+    function aplicar() { const p = pSel(); if (!p) return; const el = esc.querySelector('.pieza[data-ranura="' + seleccion + '"]'); if (el) colocar(el, geometria(p, seleccion, p.ajuste)); }
+    let tGuardar; const guardarLuego = p => { clearTimeout(tGuardar); tGuardar = setTimeout(() => poner("prendas", p).catch(() => {}), 400); };
+    esc.addEventListener("pointerdown", e => {
+      const pieza = e.target.closest(".pieza");
+      if (!ptrs.size) {
+        if (!pieza) { if (seleccion) { seleccion = null; renderVestir(); } return; }
+        if (seleccion !== pieza.dataset.ranura) { seleccion = pieza.dataset.ranura; ranuraActiva = seleccion; renderVestir(); }
+      }
+      const p = pSel(); if (!p) return;
+      try { esc.setPointerCapture(e.pointerId); } catch (_) {}
+      ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      p.ajuste = p.ajuste || {};
+      ini = { aj: { dx: p.ajuste.dx || 0, dy: p.ajuste.dy || 0, s: p.ajuste.s || 1 }, pts: new Map([...ptrs].map(([k, v]) => [k, { ...v }])) };
+      e.preventDefault();
+    });
+    esc.addEventListener("pointermove", e => {
+      if (!ptrs.has(e.pointerId) || !ini) return;
+      ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      const p = pSel(); if (!p) return;
+      const k = 300 / esc.getBoundingClientRect().width;
+      const act = [...ptrs.values()], prev = [...ini.pts.values()];
+      if (act.length >= 2 && prev.length >= 2) {
+        const d1 = Math.hypot(act[0].x - act[1].x, act[0].y - act[1].y), d0 = Math.hypot(prev[0].x - prev[1].x, prev[0].y - prev[1].y) || 1;
+        p.ajuste.s = Math.min(2.2, Math.max(0.4, ini.aj.s * d1 / d0));
+      } else if (act.length === 1) {
+        const a0 = ini.pts.get(e.pointerId); if (!a0) return;
+        p.ajuste.dx = ini.aj.dx + (e.clientX - a0.x) * k;
+        p.ajuste.dy = ini.aj.dy + (e.clientY - a0.y) * k;
+      }
+      aplicar();
+    });
+    const soltar = e => {
+      if (!ptrs.has(e.pointerId)) return; ptrs.delete(e.pointerId);
+      const p = pSel();
+      if (p) { guardarLuego(p); $("#ajuste-tam").value = Math.round((p.ajuste.s || 1) * 100); }
+      ini = ptrs.size && p ? { aj: { dx: p.ajuste.dx || 0, dy: p.ajuste.dy || 0, s: p.ajuste.s || 1 }, pts: new Map([...ptrs].map(([k, v]) => [k, { ...v }])) } : null;
+    };
+    esc.addEventListener("pointerup", soltar);
+    esc.addEventListener("pointercancel", soltar);
+    $("#ajuste-tam").addEventListener("input", e => { const p = pSel(); if (!p) return; p.ajuste = p.ajuste || {}; p.ajuste.s = e.target.value / 100; aplicar(); guardarLuego(p); });
+    $("#ajuste-centrar").onclick = () => { const p = pSel(); if (!p) return; p.ajuste = {}; aplicar(); $("#ajuste-tam").value = 100; guardarLuego(p); };
+    $("#ajuste-quitar").onclick = () => { if (!seleccion) return; ponerPrenda(seleccion, null); seleccion = null; renderVestir(); };
+  })();
+
+  /* ================= Outfits ================= */
+  $("#btn-guardar-look").onclick = () => {
+    if (!Object.values(puesto).some(Boolean)) { toast("Elige al menos una prenda"); return; }
+    $("#lk-nombre").value = "Outfit " + fechaCorta(Date.now());
+    abrirHoja("#hoja-look"); setTimeout(() => $("#lk-nombre").select(), 60);
+  };
+  $("#lk-guardar").onclick = async () => {
+    const ajustes = {};
+    for (const r of RANURAS) { const p = prendaDe(puesto[r]); if (p) ajustes[p.id] = { ...(p.ajuste || {}) }; }
+    const o = { id: nuevoId(), nombre: $("#lk-nombre").value.trim() || "Outfit " + fechaCorta(Date.now()), fecha: Date.now(), puesto: { ...puesto }, ajustes, usos: $("#lk-hoy").checked ? [Date.now()] : [] };
+    outfits.unshift(o); await poner("outfits", o).catch(() => {});
+    cerrarHojas(); renderOutfits(); toast("Outfit guardado");
+  };
+  function renderOutfits() {
+    const cont = $("#looks"); cont.innerHTML = "";
+    $("#looks-vacio").hidden = outfits.length > 0;
+    $("#outfits-sub").textContent = outfits.length ? outfits.length + (outfits.length === 1 ? " outfit guardado" : " outfits guardados") : "";
+    outfits.slice().sort((a, b) => b.fecha - a.fecha).forEach(o => {
+      const c = document.createElement("article"); c.className = "look";
+      const e = document.createElement("div"); e.className = "escena"; c.appendChild(e);
+      pintarEscena(e, o.puesto, o.ajustes);
+      const n = document.createElement("div"); n.className = "nom"; n.textContent = o.nombre; c.appendChild(n);
+      const d = document.createElement("div"); d.className = "det";
+      const u = o.usos || [];
+      d.textContent = u.length ? "Usado " + u.length + (u.length === 1 ? " vez" : " veces") + " · último " + fechaCorta(Math.max(...u)) : "Sin usar todavía";
+      c.appendChild(d);
+      const bots = document.createElement("div"); bots.className = "bots";
+      const b1 = document.createElement("button"); b1.type = "button"; b1.className = "mini-btn"; b1.textContent = "Ponérmelo";
+      b1.onclick = () => {
+        puesto = { arriba: null, abajo: null, vestido: null, abrigo: null, zapatos: null, bolsa: null, accesorio: null, ...o.puesto };
+        for (const id in o.ajustes) { const p = prendaDe(id); if (p) { p.ajuste = { ...o.ajustes[id] }; poner("prendas", p).catch(() => {}); } }
+        seleccion = null; local.set("puesto", puesto); ir("vestir");
+      };
+      const b2 = document.createElement("button"); b2.type = "button"; b2.className = "mini-btn"; b2.textContent = "Lo usé hoy";
+      const yaHoy = u.some(t => { const x = new Date(t); return x.getFullYear() + "-" + (x.getMonth() + 1) + "-" + x.getDate() === hoyClave(); });
+      if (yaHoy) { b2.disabled = true; b2.textContent = "Usado hoy ✓"; }
+      b2.onclick = async () => { o.usos = (o.usos || []).concat(Date.now()); await poner("outfits", o).catch(() => {}); renderOutfits(); toast("Anotado para hoy"); };
+      const b3 = document.createElement("button"); b3.type = "button"; b3.className = "mini-btn"; b3.textContent = "Eliminar"; b3.style.color = "var(--peligro)";
+      b3.onclick = () => confirmar(b3, "¿Seguro?", async () => { outfits = outfits.filter(x => x.id !== o.id); await quitar("outfits", o.id).catch(() => {}); renderOutfits(); });
+      bots.append(b1, b2, b3); c.appendChild(bots);
+      cont.appendChild(c);
+    });
+  }
+
+  /* ================= Clóset ================= */
+  let filtro = "todo";
+  function renderCloset() {
+    const f = $("#filtros"); f.innerHTML = "";
+    [{ k: "todo", n: "Todo" }, ...CATS].forEach(c => {
+      const n = c.k === "todo" ? prendas.length : prendas.filter(p => p.cat === c.k).length;
+      if (c.k !== "todo" && !n) return;
+      const b = document.createElement("button"); b.type = "button"; b.className = "chip"; b.textContent = c.n;
+      const s = document.createElement("span"); s.className = "n"; s.textContent = n; b.appendChild(s);
+      b.setAttribute("aria-pressed", String(filtro === c.k)); b.onclick = () => { filtro = c.k; renderCloset(); };
+      f.appendChild(b);
+    });
+    if (filtro !== "todo" && !prendas.some(p => p.cat === filtro)) filtro = "todo";
+    const g = $("#rejilla"); g.innerHTML = "";
+    const lista = prendas.filter(p => filtro === "todo" || p.cat === filtro).sort((a, b) => b.fecha - a.fecha);
+    lista.forEach(p => {
+      const b = document.createElement("button"); b.type = "button"; b.className = "prenda";
+      const fo = document.createElement("div"); fo.className = "foto";
+      const im = document.createElement("img"); im.src = urlDe(p); im.alt = ""; im.loading = "lazy"; fo.appendChild(im);
+      if (p.ejemplo) { const e = document.createElement("span"); e.className = "etq"; e.textContent = "Ejemplo"; fo.appendChild(e); }
+      const n = document.createElement("div"); n.className = "nom"; n.textContent = p.nombre;
+      const d = document.createElement("div"); d.className = "det"; d.textContent = p.marca ? p.marca : cat(p.cat).n;
+      b.append(fo, n, d); b.onclick = () => abrirPrenda(p.id);
+      g.appendChild(b);
+    });
+    $("#closet-vacio").hidden = prendas.length > 0;
+    $("#filtros").hidden = prendas.length === 0;
+    $("#aviso-ejemplos").hidden = !prendas.some(p => p.ejemplo);
+    $("#closet-sub").textContent = prendas.length ? prendas.length + (prendas.length === 1 ? " prenda" : " prendas") : "";
+    $("#conteo").textContent = prendas.length ? prendas.length + " prendas · " + outfits.length + " outfits" : "Tu ropa, en tu celular";
+  }
+  $("#btn-borrar-ejemplos").onclick = async () => {
+    const ej = prendas.filter(p => p.ejemplo);
+    for (const p of ej) await quitar("prendas", p.id).catch(() => {});
+    prendas = prendas.filter(p => !p.ejemplo); limpiarPuesto(); local.set("puesto", puesto);
+    renderTodo(); toast("Listo, ahora agrega tu ropa");
+  };
+
+  function chipsCategoria(cont, valor, alCambiar) {
+    cont.innerHTML = "";
+    CATS.forEach(c => {
+      const b = document.createElement("button"); b.type = "button"; b.className = "chip"; b.textContent = c.n;
+      b.setAttribute("role", "radio"); b.setAttribute("aria-checked", String(c.k === valor)); b.setAttribute("aria-pressed", String(c.k === valor));
+      b.onclick = () => { alCambiar(c.k); chipsCategoria(cont, c.k, alCambiar); };
+      cont.appendChild(b);
+    });
+  }
+
+  // Detalle de prenda
+  let prendaAbierta = null, catDetalle = null;
+  function abrirPrenda(id) {
+    const p = prendaDe(id); if (!p) return; prendaAbierta = p; catDetalle = p.cat;
+    $("#pr-titulo").textContent = p.nombre; $("#pr-img").src = urlDe(p); $("#pr-img").alt = p.nombre;
+    $("#pr-nombre").value = p.nombre; $("#pr-marca").value = p.marca || "";
+    chipsCategoria($("#pr-cats"), p.cat, k => (catDetalle = k));
+    const n = outfits.filter(o => Object.values(o.puesto).includes(p.id)).length;
+    $("#pr-usos").textContent = "Agregada el " + fechaCorta(p.fecha) + (n ? " · aparece en " + n + (n === 1 ? " outfit" : " outfits") : "");
+    const del = $("#pr-eliminar"); del.dataset.armado = ""; del.textContent = "Eliminar prenda";
+    abrirHoja("#hoja-prenda");
+  }
+  $("#pr-guardar").onclick = async () => {
+    const p = prendaAbierta; if (!p) return;
+    p.nombre = $("#pr-nombre").value.trim() || p.nombre; p.marca = $("#pr-marca").value.trim();
+    if (catDetalle !== p.cat) { for (const r of RANURAS) if (puesto[r] === p.id) puesto[r] = null; p.cat = catDetalle; p.ajuste = {}; }
+    p.ejemplo = false;
+    await poner("prendas", p).catch(() => {}); cerrarHojas(); renderTodo(); toast("Cambios guardados");
+  };
+  $("#pr-probar").onclick = () => { const p = prendaAbierta; if (!p) return; ponerPrenda(p.cat, p.id); ranuraActiva = p.cat; seleccion = p.cat; cerrarHojas(); ir("vestir"); };
+  $("#pr-recorte").onclick = () => { const p = prendaAbierta; if (!p) return; cerrarHojas(); abrirEditor(p); };
+  $("#pr-eliminar").onclick = e => confirmar(e.currentTarget, "Toca otra vez para eliminar", async () => {
+    const p = prendaAbierta; if (!p) return;
+    prendas = prendas.filter(x => x.id !== p.id); await quitar("prendas", p.id).catch(() => {});
+    for (const r of RANURAS) if (puesto[r] === p.id) puesto[r] = null; local.set("puesto", puesto);
+    cerrarHojas(); renderTodo(); toast("Prenda eliminada");
+  });
+
+  /* ================= Editor: foto → quitar fondo → guardar ================= */
+  const ed = { w: 0, h: 0, base: null, mask: null, vista: null, auto: true, tol: 22, herr: null, deshacer: [], editando: null, cat: "arriba", conAlfa: false, original: null };
+  const lienzo = $("#ed-lienzo"), ctxL = lienzo.getContext("2d");
+  const off = document.createElement("canvas"), ctxO = off.getContext("2d");
+
+  function abrirEditor(prenda, catInicial) {
+    ed.editando = prenda || null; ed.herr = null; ed.deshacer = []; ed.cat = prenda ? prenda.cat : (catInicial || (filtro !== "todo" ? filtro : "arriba"));
+    $("#ed-titulo").textContent = prenda ? "Editar recorte" : "Nueva prenda";
+    $("#ed-nombre").value = prenda ? prenda.nombre : ""; $("#ed-marca").value = prenda ? (prenda.marca || "") : "";
+    chipsCategoria($("#ed-cats"), ed.cat, k => (ed.cat = k));
+    $("#ed-elegir").hidden = !!prenda; $("#ed-trabajo").hidden = true;
+    actualizarHerr();
+    abrirHoja("#hoja-editor");
+    if (prenda) cargarFoto(prenda.original || prenda.img);
+  }
+  $$("[data-agregar]").forEach(b => (b.onclick = () => abrirEditor(null)));
+  $("#ed-archivo").addEventListener("change", e => { const f = e.target.files && e.target.files[0]; if (f) cargarFoto(f); e.target.value = ""; });
+  $("#ed-otra").onclick = () => $("#ed-archivo").click();
+
+  async function cargarFoto(blob) {
+    let img;
+    try {
+      img = new Image(); const u = URL.createObjectURL(blob); img.src = u; await img.decode(); URL.revokeObjectURL(u);
+    } catch (e) { toast("No pude abrir esa foto. Prueba con otra."); return; }
+    const MAX = 900; const k = Math.min(1, MAX / Math.max(img.naturalWidth, img.naturalHeight));
+    ed.w = Math.max(1, Math.round(img.naturalWidth * k)); ed.h = Math.max(1, Math.round(img.naturalHeight * k));
+    off.width = ed.w; off.height = ed.h; ctxO.clearRect(0, 0, ed.w, ed.h); ctxO.drawImage(img, 0, 0, ed.w, ed.h);
+    ed.base = ctxO.getImageData(0, 0, ed.w, ed.h);
+    ed.vista = new ImageData(new Uint8ClampedArray(ed.base.data), ed.w, ed.h);
+    // ¿La foto ya viene recortada (PNG con transparencia)?
+    const d = ed.base.data; let transp = 0; const tot = ed.w * ed.h;
+    for (let i = 3; i < d.length; i += 4 * 7) if (d[i] < 200) transp++;
+    ed.conAlfa = transp > (tot / 7) * 0.05;
+    ed.original = blob;
+    lienzo.width = ed.w; lienzo.height = ed.h;
+    ed.auto = !ed.conAlfa; ed.deshacer = [];
+    calcularMascara();
+    $("#ed-elegir").hidden = true; $("#ed-trabajo").hidden = false; actualizarHerr();
+  }
+
+  // Quita el fondo: parte de las orillas de la foto y se "derrama" sobre los colores parecidos al fondo
+  function calcularMascara() {
+    const n = ed.w * ed.h; const d = ed.base.data;
+    ed.mask = new Uint8ClampedArray(n);
+    if (!ed.auto) { for (let i = 0; i < n; i++) ed.mask[i] = d[i * 4 + 3]; pintar(); return; }
+    const L = new Float32Array(n), A = new Float32Array(n), B = new Float32Array(n);
+    for (let i = 0; i < n; i++) {
+      let r = d[i * 4] / 255, g = d[i * 4 + 1] / 255, b = d[i * 4 + 2] / 255;
+      r = r > 0.04045 ? Math.pow((r + 0.055) / 1.055, 2.4) : r / 12.92;
+      g = g > 0.04045 ? Math.pow((g + 0.055) / 1.055, 2.4) : g / 12.92;
+      b = b > 0.04045 ? Math.pow((b + 0.055) / 1.055, 2.4) : b / 12.92;
+      let x = (r * 0.4124 + g * 0.3576 + b * 0.1805) / 0.95047, y = r * 0.2126 + g * 0.7152 + b * 0.0722, z = (r * 0.0193 + g * 0.1192 + b * 0.9505) / 1.08883;
+      const f = t => t > 0.008856 ? Math.cbrt(t) : 7.787 * t + 16 / 116;
+      x = f(x); y = f(y); z = f(z);
+      L[i] = 116 * y - 16; A[i] = 500 * (x - y); B[i] = 200 * (y - z);
+    }
+    // Color típico del fondo = mediana de las orillas
+    const borde = [];
+    for (let x = 0; x < ed.w; x++) { borde.push(x, (ed.h - 1) * ed.w + x); }
+    for (let y = 0; y < ed.h; y++) { borde.push(y * ed.w, y * ed.w + ed.w - 1); }
+    const med = arr => { const s = arr.slice().sort((a, b) => a - b); return s[s.length >> 1]; };
+    const L0 = med(borde.map(i => L[i])), A0 = med(borde.map(i => A[i])), B0 = med(borde.map(i => B[i]));
+    const tol = ed.tol;
+    const dist = i => Math.sqrt(((L[i] - L0) * 0.55) ** 2 + (A[i] - A0) ** 2 + (B[i] - B0) ** 2);
+    const dVec = (i, j) => Math.sqrt(((L[i] - L[j]) * 0.55) ** 2 + (A[i] - A[j]) ** 2 + (B[i] - B[j]) ** 2);
+    const fondo = new Uint8Array(n); const cola = new Int32Array(n); let ini = 0, fin = 0;
+    for (const i of borde) if (!fondo[i] && dist(i) < tol * 1.6) { fondo[i] = 1; cola[fin++] = i; }
+    while (ini < fin) {
+      const i = cola[ini++]; const x = i % ed.w;
+      const vec = [];
+      if (x > 0) vec.push(i - 1); if (x < ed.w - 1) vec.push(i + 1);
+      if (i >= ed.w) vec.push(i - ed.w); if (i < n - ed.w) vec.push(i + ed.w);
+      for (const j of vec) {
+        if (fondo[j]) continue;
+        const dm = dist(j);
+        if (dm < tol || (dVec(i, j) < tol * 0.33 && dm < tol * 2.4)) { fondo[j] = 1; cola[fin++] = j; }
+      }
+    }
+    for (let i = 0; i < n; i++) ed.mask[i] = fondo[i] ? 0 : Math.min(255, d[i * 4 + 3]);
+    // Suaviza la orilla un pixel
+    const m2 = new Uint8ClampedArray(ed.mask);
+    for (let y = 1; y < ed.h - 1; y++) for (let x = 1; x < ed.w - 1; x++) {
+      const i = y * ed.w + x; const s = ed.mask[i - 1] + ed.mask[i + 1] + ed.mask[i - ed.w] + ed.mask[i + ed.w] + ed.mask[i] * 4;
+      m2[i] = s / 8;
+    }
+    ed.mask = m2;
+    pintar();
+  }
+  let rafPintar = 0;
+  function pintar() {
+    if (rafPintar) return;
+    rafPintar = requestAnimationFrame(() => {
+      rafPintar = 0;
+      const v = ed.vista.data, m = ed.mask;
+      for (let i = 0, j = 3; i < m.length; i++, j += 4) v[j] = m[i];
+      ctxL.clearRect(0, 0, ed.w, ed.h); ctxL.putImageData(ed.vista, 0, 0);
+    });
+  }
+  function actualizarHerr() {
+    $("#ed-auto").setAttribute("aria-pressed", String(ed.auto));
+    $("#ed-borrar").setAttribute("aria-pressed", String(ed.herr === "borrar"));
+    $("#ed-recuperar").setAttribute("aria-pressed", String(ed.herr === "recuperar"));
+    $("#ed-tol-caja").hidden = !ed.auto;
+    $("#ed-pincel-caja").hidden = !ed.herr;
+    lienzo.classList.toggle("pincel", !!ed.herr);
+  }
+  const guardarDeshacer = () => { ed.deshacer.push(new Uint8ClampedArray(ed.mask)); if (ed.deshacer.length > 12) ed.deshacer.shift(); };
+  $("#ed-auto").onclick = () => { guardarDeshacer(); ed.auto = !ed.auto; calcularMascara(); actualizarHerr(); };
+  $("#ed-borrar").onclick = () => { ed.herr = ed.herr === "borrar" ? null : "borrar"; actualizarHerr(); };
+  $("#ed-recuperar").onclick = () => { ed.herr = ed.herr === "recuperar" ? null : "recuperar"; actualizarHerr(); };
+  $("#ed-deshacer").onclick = () => { const m = ed.deshacer.pop(); if (m) { ed.mask = m; pintar(); } };
+  let tTol; $("#ed-tol").addEventListener("input", e => { ed.tol = +e.target.value; clearTimeout(tTol); tTol = setTimeout(() => { guardarDeshacer(); calcularMascara(); }, 120); });
+
+  (function pincel() {
+    let ultimo = null;
+    const punto = e => { const r = lienzo.getBoundingClientRect(); return { x: (e.clientX - r.left) * ed.w / r.width, y: (e.clientY - r.top) * ed.h / r.height, k: ed.w / r.width }; };
+    function trazo(a, b) {
+      const rad = (+$("#ed-pincel").value) * a.k; const valor = ed.herr === "borrar" ? 0 : 255; const d = ed.base.data;
+      const pasos = Math.max(1, Math.ceil(Math.hypot(b.x - a.x, b.y - a.y) / (rad / 3)));
+      for (let s = 0; s <= pasos; s++) {
+        const cx = a.x + (b.x - a.x) * s / pasos, cy = a.y + (b.y - a.y) * s / pasos;
+        const x0 = Math.max(0, Math.floor(cx - rad)), x1 = Math.min(ed.w - 1, Math.ceil(cx + rad));
+        const y0 = Math.max(0, Math.floor(cy - rad)), y1 = Math.min(ed.h - 1, Math.ceil(cy + rad));
+        for (let y = y0; y <= y1; y++) for (let x = x0; x <= x1; x++) {
+          const dd = Math.hypot(x - cx, y - cy); if (dd > rad) continue;
+          const i = y * ed.w + x; const f = Math.min(1, (rad - dd) / 2);
+          const objetivo = valor ? Math.min(255, d[i * 4 + 3]) : 0;
+          ed.mask[i] = ed.mask[i] + (objetivo - ed.mask[i]) * f;
+        }
+      }
+      pintar();
+    }
+    lienzo.addEventListener("pointerdown", e => { if (!ed.herr) return; guardarDeshacer(); try { lienzo.setPointerCapture(e.pointerId); } catch (_) {} ultimo = punto(e); trazo(ultimo, ultimo); e.preventDefault(); });
+    lienzo.addEventListener("pointermove", e => { if (!ultimo) return; const p = punto(e); trazo(ultimo, p); ultimo = p; });
+    const fin = () => (ultimo = null);
+    lienzo.addEventListener("pointerup", fin); lienzo.addEventListener("pointercancel", fin);
+  })();
+
+  const aBlob = (canvas, tipo, cal) => new Promise(res => canvas.toBlob(b => res(b), tipo, cal));
+  $("#ed-guardar").onclick = async () => {
+    if (!ed.mask) return;
+    const m = ed.mask; let x0 = ed.w, y0 = ed.h, x1 = -1, y1 = -1;
+    for (let y = 0; y < ed.h; y++) for (let x = 0; x < ed.w; x++) if (m[y * ed.w + x] > 24) { if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; }
+    if (x1 < 0) { toast("Se borró toda la prenda. Baja la sensibilidad o usa Recuperar."); return; }
+    const pad = 4; x0 = Math.max(0, x0 - pad); y0 = Math.max(0, y0 - pad); x1 = Math.min(ed.w - 1, x1 + pad); y1 = Math.min(ed.h - 1, y1 + pad);
+    const bw = x1 - x0 + 1, bh = y1 - y0 + 1; const k = Math.min(1, 700 / Math.max(bw, bh));
+    const tmp = document.createElement("canvas"); tmp.width = ed.w; tmp.height = ed.h; tmp.getContext("2d").putImageData(ed.vista, 0, 0);
+    // asegura que la vista tenga la máscara final
+    { const v = ed.vista.data; for (let i = 0, j = 3; i < m.length; i++, j += 4) v[j] = m[i]; tmp.getContext("2d").putImageData(ed.vista, 0, 0); }
+    const outC = document.createElement("canvas"); outC.width = Math.round(bw * k); outC.height = Math.round(bh * k);
+    outC.getContext("2d").drawImage(tmp, x0, y0, bw, bh, 0, 0, outC.width, outC.height);
+    const img = await aBlob(outC, "image/png");
+    let original = ed.original;
+    if (!ed.editando || ed.original !== ed.editando.original) {
+      const oc = document.createElement("canvas"); oc.width = ed.w; oc.height = ed.h; oc.getContext("2d").putImageData(ed.base, 0, 0);
+      original = await aBlob(oc, ed.conAlfa ? "image/png" : "image/jpeg", 0.86);
+    }
+    const nombre = $("#ed-nombre").value.trim() || cat(ed.cat).c + " " + (prendas.filter(p => p.cat === ed.cat).length + 1);
+    let p;
+    if (ed.editando) {
+      p = ed.editando; Object.assign(p, { img, original, w: outC.width, h: outC.height, nombre, marca: $("#ed-marca").value.trim(), ajuste: {}, ejemplo: false });
+      if (p.cat !== ed.cat) { for (const r of RANURAS) if (puesto[r] === p.id) puesto[r] = null; p.cat = ed.cat; }
+    } else {
+      p = { id: nuevoId(), nombre, marca: $("#ed-marca").value.trim(), cat: ed.cat, img, original, w: outC.width, h: outC.height, fecha: Date.now(), ajuste: {}, ejemplo: false };
+      prendas.push(p);
+    }
+    try { await poner("prendas", p); } catch (e) { toast("No se pudo guardar. Revisa el espacio de tu celular."); return; }
+    cerrarHojas(); filtro = "todo"; renderTodo(); toast(ed.editando ? "Recorte actualizado" : "Prenda agregada");
+  };
+
+  /* ================= Hojas y navegación ================= */
+  function abrirHoja(sel) { cerrarHojas(); $(sel).hidden = false; document.body.style.overflow = "hidden"; }
+  function cerrarHojas() { $$(".hoja").forEach(h => (h.hidden = true)); document.body.style.overflow = ""; }
+  $$("[data-cerrar]").forEach(b => (b.onclick = cerrarHojas));
+  $$(".hoja").forEach(h => h.addEventListener("click", e => { if (e.target === h) cerrarHojas(); }));
+  document.addEventListener("keydown", e => { if (e.key === "Escape") cerrarHojas(); });
+
+  const VISTAS = ["closet", "vestir", "outfits"];
+  function ir(v) { if (location.hash !== "#" + v) location.hash = v; else mostrar(); }
+  function mostrar() {
+    const v = VISTAS.includes(location.hash.slice(1)) ? location.hash.slice(1) : "closet";
+    VISTAS.forEach(x => ($("#v-" + x).hidden = x !== v));
+    $$(".pest").forEach(b => (b.dataset.ir === v ? b.setAttribute("aria-current", "page") : b.removeAttribute("aria-current")));
+    if (v === "vestir") renderVestir();
+    if (v === "outfits") renderOutfits();
+    if (v === "closet") renderCloset();
+    window.scrollTo(0, 0);
+  }
+  window.addEventListener("hashchange", mostrar);
+  $$("[data-ir]").forEach(b => (b.onclick = () => ir(b.dataset.ir)));
+  function renderTodo() { renderCloset(); renderVestir(); renderOutfits(); }
+
+  /* ================= Respaldo ================= */
+  const blobAData = b => new Promise((res, rej) => { if (!b) return res(null); const r = new FileReader(); r.onload = () => res(r.result); r.onerror = rej; r.readAsDataURL(b); });
+  function dataABlob(u) {
+    if (!u) return null; const [cab, datos] = u.split(","); const tipo = (cab.match(/data:([^;]+)/) || [])[1] || "image/png";
+    const bin = atob(datos); const arr = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) arr[i] = bin.charCodeAt(i);
+    return new Blob([arr], { type: tipo });
+  }
+  async function guardarArchivo(nombre, blob) {
+    try {
+      if (window.claude && typeof window.claude.use === "function") {
+        const dl = await window.claude.use("downloads");
+        if (dl) { await dl.save({ filename: nombre, data: blob }); return true; }
+      }
+    } catch (e) { if (e && e.code === "declined") return false; }
+    try {
+      const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = nombre;
+      document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000); return true;
+    } catch (e) { return false; }
+  }
+  $("#btn-respaldo").onclick = () => { $("#rs-estado").textContent = ""; abrirHoja("#hoja-respaldo"); };
+  $("#rs-exportar").onclick = async () => {
+    $("#rs-estado").textContent = "Preparando respaldo…";
+    const ps = [];
+    for (const p of prendas) ps.push({ ...p, img: await blobAData(p.img), original: await blobAData(p.original) });
+    const datos = { app: "miCloset", version: 1, fecha: Date.now(), prendas: ps, outfits };
+    const d = new Date(); const nombre = "mi-closet-respaldo-" + d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0") + ".json";
+    const ok = await guardarArchivo(nombre, new Blob([JSON.stringify(datos)], { type: "application/json" }));
+    $("#rs-estado").textContent = ok ? "Respaldo listo: " + prendas.length + " prendas y " + outfits.length + " outfits." : "No se descargó el respaldo.";
+  };
+  $("#rs-archivo").addEventListener("change", async e => {
+    const f = e.target.files && e.target.files[0]; e.target.value = ""; if (!f) return;
+    try {
+      const datos = JSON.parse(await f.text());
+      if (datos.app !== "miCloset") throw new Error("formato");
+      let n = 0;
+      for (const p of datos.prendas || []) {
+        const q = { ...p, img: dataABlob(p.img), original: dataABlob(p.original) };
+        if (!q.img) continue; await poner("prendas", q); n++;
+      }
+      for (const o of datos.outfits || []) await poner("outfits", o);
+      prendas = await leerTodo("prendas"); outfits = await leerTodo("outfits");
+      renderTodo(); $("#rs-estado").textContent = "Se cargaron " + n + " prendas y " + (datos.outfits || []).length + " outfits.";
+    } catch (err) { $("#rs-estado").textContent = "Ese archivo no es un respaldo de Mi Clóset."; }
+  });
+
+  /* ================= Prendas de ejemplo (dibujadas) ================= */
+  async function ejemplo(w, h, dibujo) {
+    const c = document.createElement("canvas"); c.width = w; c.height = h; const x = c.getContext("2d");
+    x.lineJoin = "round"; x.lineCap = "round"; dibujo(x);
+    return { blob: await aBlob(c, "image/png"), w, h };
+  }
+  const forma = (x, pts, relleno, borde) => {
+    x.beginPath(); pts.forEach(([a, b], i) => (i ? x.lineTo(a, b) : x.moveTo(a, b))); x.closePath();
+    x.fillStyle = relleno; x.fill(); if (borde) { x.strokeStyle = borde; x.lineWidth = 3; x.stroke(); }
+  };
+  const linea = (x, pts, color, ancho = 2) => { x.beginPath(); pts.forEach(([a, b], i) => (i ? x.lineTo(a, b) : x.moveTo(a, b))); x.strokeStyle = color; x.lineWidth = ancho; x.stroke(); };
+  async function crearEjemplos() {
+    const lista = [
+      { nombre: "Blusa rosa palo", marca: "Ejemplo", cat: "arriba", d: await ejemplo(360, 320, x => {
+        forma(x, [[120,20],[150,44],[210,44],[240,20],[330,62],[302,142],[266,126],[266,302],[94,302],[94,126],[58,142],[30,62]], "#e9a9a0", "#c98478");
+        linea(x, [[120,20],[150,44],[210,44],[240,20]], "#c98478", 4); linea(x, [[94,286],[266,286]], "#d8968c", 2);
+      }) },
+      { nombre: "Jeans rectos", marca: "Ejemplo", cat: "abajo", d: await ejemplo(260, 600, x => {
+        forma(x, [[30,12],[230,12],[246,580],[150,580],[132,190],[128,190],[110,580],[14,580]], "#5b7fa6", "#476a8f");
+        x.fillStyle = "#4c6f96"; x.fillRect(30, 12, 200, 34); linea(x, [[130,46],[130,190]], "#89a7c6", 2);
+        linea(x, [[60,60],[100,96]], "#89a7c6", 2); linea(x, [[200,60],[160,96]], "#89a7c6", 2);
+      }) },
+      { nombre: "Falda camel", marca: "Ejemplo", cat: "abajo", d: await ejemplo(300, 250, x => {
+        forma(x, [[80,14],[220,14],[286,236],[14,236]], "#c69560", "#a97a49"); x.fillStyle = "#b5844f"; x.fillRect(80, 14, 140, 24);
+        linea(x, [[150,40],[150,236]], "#a97a49", 1.5); linea(x, [[115,40],[90,236]], "#b88a56", 1.5); linea(x, [[185,40],[210,236]], "#b88a56", 1.5);
+      }) },
+      { nombre: "Vestido salvia", marca: "Ejemplo", cat: "vestido", d: await ejemplo(300, 470, x => {
+        forma(x, [[105,10],[128,10],[150,46],[172,10],[195,10],[200,92],[184,138],[192,176],[270,452],[30,452],[108,176],[116,138],[100,92]], "#9db08a", "#7f9470");
+        linea(x, [[108,176],[192,176]], "#7f9470", 3);
+      }) },
+      { nombre: "Cárdigan café", marca: "Ejemplo", cat: "abrigo", d: await ejemplo(400, 380, x => {
+        forma(x, [[140,20],[200,130],[260,20],[340,52],[392,330],[346,342],[300,140],[300,362],[206,362],[200,150],[194,362],[100,362],[100,140],[54,342],[8,330],[60,52]], "#8a5a44", "#6e4433");
+        [170, 210, 250, 290].forEach(y => { x.beginPath(); x.arc(212, y, 5, 0, 7); x.fillStyle = "#e9d3bc"; x.fill(); });
+        linea(x, [[100,346],[300,346]], "#764b38", 2);
+      }) },
+      { nombre: "Tenis blancos", marca: "Ejemplo", cat: "zapatos", d: await ejemplo(420, 160, x => {
+        const zap = dx => s => s.map(([a, b]) => [dx(a), b]);
+        const z = [[20,140],[12,112],[40,100],[100,88],[124,40],[170,30],[186,32],[192,140]];
+        forma(x, z, "#f3ede4", "#b9a58e"); forma(x, zap(a => 420 - a)(z), "#f3ede4", "#b9a58e");
+        x.fillStyle = "#d9cbb8"; x.fillRect(14, 132, 178, 12); x.fillRect(228, 132, 178, 12);
+        linea(x, [[110,80],[150,64]], "#c9b59c", 2); linea(x, [[310,80],[270,64]], "#c9b59c", 2);
+      }) },
+      { nombre: "Bolsa tote", marca: "Ejemplo", cat: "bolsa", d: await ejemplo(260, 290, x => {
+        x.beginPath(); x.arc(130, 96, 62, Math.PI, 0); x.strokeStyle = "#7d4c35"; x.lineWidth = 9; x.stroke();
+        forma(x, [[30,96],[230,96],[214,280],[46,280]], "#a86b4c", "#86523a"); linea(x, [[40,120],[220,120]], "#94593e", 2);
+      }) }
+    ];
+    const t = Date.now();
+    lista.forEach((e, i) => prendas.push({ id: nuevoId() + i, nombre: e.nombre, marca: e.marca, cat: e.cat, img: e.d.blob, original: null, w: e.d.w, h: e.d.h, fecha: t - i * 1000, ajuste: {}, ejemplo: true }));
+    for (const p of prendas) await poner("prendas", p).catch(() => {});
+    const id = n => (prendas.find(p => p.nombre === n) || {}).id || null;
+    puesto = { arriba: id("Blusa rosa palo"), abajo: id("Jeans rectos"), vestido: null, abrigo: null, zapatos: id("Tenis blancos"), bolsa: id("Bolsa tote"), accesorio: null };
+    local.set("puesto", puesto);
+  }
+
+  /* ================= Arranque ================= */
+  (async function iniciar() {
+    idb = await abrirDB();
+    $("#aviso-guardado").hidden = !!idb;
+    try { if (navigator.storage && navigator.storage.persist) navigator.storage.persist(); } catch (e) {}
+    try { prendas = await leerTodo("prendas"); outfits = await leerTodo("outfits"); } catch (e) { prendas = []; outfits = []; }
+    const yaEjemplos = await leerAjuste("ejemplos");
+    if (!prendas.length && !yaEjemplos) { await crearEjemplos(); ponerAjuste("ejemplos", true); }
+    const guardado = local.get("puesto"); if (guardado) puesto = { ...puesto, ...guardado };
+    limpiarPuesto();
+    mostrar(); renderCloset();
+  })();
+})();
+</script>
+
+</body>
+</html>
